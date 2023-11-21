@@ -3,10 +3,10 @@ const validator = require("validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const SECRECT_KEY = "abcdefghijklmnop"
-
+ 
 const userSchema = new mongoose.Schema({
     fname: {
-        type: String,
+        type: String, 
         required: true,
         trim: true
     },

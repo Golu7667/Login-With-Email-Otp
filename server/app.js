@@ -5,9 +5,9 @@ const cors = require("cors");
 require("./db/conn");
 const router = require("./Routes/router");
 const PORT = 4002;
+ 
 
-
-
+ 
 // middleware
 app.use(express.json());
 app.use(cors());

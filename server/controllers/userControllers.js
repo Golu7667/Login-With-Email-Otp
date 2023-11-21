@@ -4,6 +4,7 @@ const nodemailer = require("nodemailer");
 
 
 // email config
+console.log(process.env.EMAIL,process.env.PASSWORD)
 const tarnsporter = nodemailer.createTransport({
     service: "gmail",
     auth: {

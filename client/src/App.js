@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Headers />
+     
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/register' element={<Register />} />

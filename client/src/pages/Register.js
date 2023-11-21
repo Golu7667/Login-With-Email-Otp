@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import {registerfunction} from "../services/Apis";
 import {useNavigate} from "react-router-dom"
 import "../styles/mix.css"
+import { NavLink } from "react-router-dom"
 
 const Register = () => {
 
@@ -79,8 +80,8 @@ const Register = () => {
               </div>
               </div>
             </div>
-            <button className='btn' onClick={handleSubmit}>Sign Up</button>
-            <p>Don't have and account </p>
+            <button className='btn' onClick={handleSubmit} style={{width:'430px',backgroundColor:'green',height:'50px',borderRadius:'20px',color:'white',fontSize:'20px',fontFamily:'cursive'}}>Sign Up</button>
+            <p style={{width:'430px',backgroundColor:'green',height:'50px',borderRadius:'20px',color:'white',fontSize:'20px'}}> <NavLink to="/" style={{color:'white',fontFamily:'cursive'}}>Login</NavLink> </p>
           </form>
         </div>
         <ToastContainer />
