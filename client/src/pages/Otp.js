@@ -40,7 +40,7 @@ const Otp = () => {
   return (
     <>
       <section>
-        <div className="form_data">
+        <div className="form_data" style={{fontFamily:'cursive'}}>
           <div className="form_heading">
             <h1>Please Enter Your OTP Here</h1>
           </div>
@@ -49,7 +49,7 @@ const Otp = () => {
               <label htmlFor="otp">OTP</label>
               <input type="text" name="otp" id="" onChange={(e) => setOtp(e.target.value)} placeholder='Enter Your OTP' />
             </div>
-            <button className='btn' onClick={LoginUser}>Submit</button>
+            <button className='btn' onClick={LoginUser} style={{backgroundColor:'green'}}>Submit</button>
           </form>
         </div>
         <ToastContainer />

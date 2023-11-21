@@ -3,7 +3,6 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Otp from './pages/Otp';
 import Error from './pages/Error';
-import Headers from './components/Headers';
 import { Routes, Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';

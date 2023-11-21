@@ -41,7 +41,7 @@ const Login = () => {
 
     return (
         <>
-            <section>
+            <section style={{fontFamily:'cursive',fontSize:'20px'}}>
                 <div className="form_data">
                     <div className="form_heading">
                         <h1>Welcome Back, Log In</h1>
@@ -52,7 +52,7 @@ const Login = () => {
                             <label htmlFor="email">Email</label>
                             <input type="email" name="email" id="" onChange={(e) => setEmail(e.target.value)} placeholder='Enter Your Email Address' />
                         </div>
-                        <button className='btn' onClick={sendOtp}>Login
+                        <button className='btn' onClick={sendOtp} style={{backgroundColor:'green'}}>Login
                         {
                             spiner ? <span><Spinner animation="border" /></span>:""
                         }
